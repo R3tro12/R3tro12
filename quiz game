@@ -1,0 +1,21 @@
+nome = input("quale il tuo nome")
+print("Hey "+nome+" benvenuto nel mio gioco!!")
+print(nome+" sei pronto a giocare?? ")
+ready = input()
+if ready == "si":
+    question1 = input("quanti anni ha ronaldo?? ")
+    if question1 == "32":
+      print(nome + " corretto 👌👍")
+    else:
+        print(nome + " corretto 👌👍")
+question2 = input("quando e nato il comunismo")
+if question2 == "21 febbraio 1848":
+    print(nome + " corretto bravo!!!!")
+else:
+    print(nome + " hai sbagliato mi dispiace ")
+question3 = input(" quanti anni Elon Musk ")
+if question3 == "51 anni":
+    print(nome + "corretto!!!")
+else:
+    print(nome + " hai sbagliato ")
+
